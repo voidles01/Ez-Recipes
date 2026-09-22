@@ -1,0 +1,82 @@
+setup-complete: true
+
+recipes:
+  golden-apple:
+    enabled: true
+    display-name: '&6Golden Apple'
+    result: GOLDEN_APPLE
+    amount: 1
+    shape:
+      - NGN
+      - GAG
+      - NGN
+    ingredients:
+      G: GOLD_INGOT
+      N: GOLD_NUGGET
+      A: APPLE
+
+  enchanted-apple:
+    enabled: true
+    display-name: '&dEnchanted Golden Apple'
+    result: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+    shape:
+      - GGG
+      - GAG
+      - GGG
+    ingredients:
+      G: GOLD_BLOCK
+      A: GOLDEN_APPLE
+
+  totem:
+    enabled: true
+    display-name: '&eTotem of Undying'
+    result: TOTEM_OF_UNDYING
+    amount: 1
+    shape:
+      - GEG
+      - ENE
+      - GEG
+    ingredients:
+      G: GOLD_BLOCK
+      E: EMERALD_BLOCK
+      N: NETHER_STAR
+
+  cobweb:
+    enabled: true
+    display-name: '&fCobwebs'
+    result: COBWEB
+    amount: 4
+    shape:
+      - SSS
+      - SSS
+      - SSS
+    ingredients:
+      S: STRING
+
+  golden-carrot:
+    enabled: true
+    display-name: '&6Golden Carrot'
+    result: GOLDEN_CARROT
+    amount: 1
+    shape:
+      - ' N '
+      - NCN
+      - ' N '
+    ingredients:
+      N: GOLD_NUGGET
+      C: CARROT
+
+  exp-bottle:
+    enabled: true
+    display-name: '&bBottle o'' Enchanting'
+    result: EXPERIENCE_BOTTLE
+    amount: 1
+    shape:
+      - GDG
+      - GAG
+      - ' G '
+    ingredients:
+      G: GLASS
+      D: GLOWSTONE_DUST
+      A: AMETHYST_SHARD
