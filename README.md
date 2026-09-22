@@ -1,2 +1,2 @@
 # Ez-Recipes
-Created with kodari.ai
+A Minecraft Paper plugin that simplifies crafting recipes for golden apples, totems of undying, cobwebs, enchanted golden apples, and golden carrots. Admins use /setup to auto-configure optimized recipes with costly E-*** and totem crafting, /status to verify plugin functionality, and players use /ez-show to view all available recipes in a GUI. Recipes persist across restarts via configuration storage.
